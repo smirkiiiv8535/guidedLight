@@ -13,6 +13,12 @@
 		17FD5CEE247D1B23004BFE3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FD5CEC247D1B23004BFE3F /* Main.storyboard */; };
 		17FD5CF0247D1B24004BFE3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FD5CEF247D1B24004BFE3F /* Assets.xcassets */; };
 		17FD5CF3247D1B24004BFE3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FD5CF1247D1B24004BFE3F /* LaunchScreen.storyboard */; };
+		17FD5CFB247D1E85004BFE3F /* randomColorSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD5CFA247D1E85004BFE3F /* randomColorSimple.swift */; };
+		17FD5CFD247D1EA3004BFE3F /* randomColorComplicated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD5CFC247D1EA3004BFE3F /* randomColorComplicated.swift */; };
+		17FD5CFF247D1ECD004BFE3F /* twoColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD5CFE247D1ECD004BFE3F /* twoColorChange.swift */; };
+		17FD5D01247D1EEE004BFE3F /* colorInOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD5D00247D1EEE004BFE3F /* colorInOrder.swift */; };
+		17FD5D03247D1F4F004BFE3F /* photoInOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD5D02247D1F4F004BFE3F /* photoInOrder.swift */; };
+		17FD5D05247D1F75004BFE3F /* randomPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FD5D04247D1F75004BFE3F /* randomPhoto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		17FD5CEF247D1B24004BFE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17FD5CF2247D1B24004BFE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17FD5CF4247D1B24004BFE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FD5CFA247D1E85004BFE3F /* randomColorSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomColorSimple.swift; sourceTree = "<group>"; };
+		17FD5CFC247D1EA3004BFE3F /* randomColorComplicated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomColorComplicated.swift; sourceTree = "<group>"; };
+		17FD5CFE247D1ECD004BFE3F /* twoColorChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoColorChange.swift; sourceTree = "<group>"; };
+		17FD5D00247D1EEE004BFE3F /* colorInOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorInOrder.swift; sourceTree = "<group>"; };
+		17FD5D02247D1F4F004BFE3F /* photoInOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoInOrder.swift; sourceTree = "<group>"; };
+		17FD5D04247D1F75004BFE3F /* randomPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomPhoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				17FD5CE8247D1B22004BFE3F /* SceneDelegate.swift */,
 				17FD5CEA247D1B22004BFE3F /* ViewController.swift */,
 				17FD5CEC247D1B23004BFE3F /* Main.storyboard */,
+				17FD5D04247D1F75004BFE3F /* randomPhoto.swift */,
+				17FD5D02247D1F4F004BFE3F /* photoInOrder.swift */,
+				17FD5D00247D1EEE004BFE3F /* colorInOrder.swift */,
+				17FD5CFE247D1ECD004BFE3F /* twoColorChange.swift */,
+				17FD5CFA247D1E85004BFE3F /* randomColorSimple.swift */,
+				17FD5CFC247D1EA3004BFE3F /* randomColorComplicated.swift */,
 				17FD5CEF247D1B24004BFE3F /* Assets.xcassets */,
 				17FD5CF1247D1B24004BFE3F /* LaunchScreen.storyboard */,
 				17FD5CF4247D1B24004BFE3F /* Info.plist */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FD5CFB247D1E85004BFE3F /* randomColorSimple.swift in Sources */,
+				17FD5D01247D1EEE004BFE3F /* colorInOrder.swift in Sources */,
+				17FD5D03247D1F4F004BFE3F /* photoInOrder.swift in Sources */,
+				17FD5CFD247D1EA3004BFE3F /* randomColorComplicated.swift in Sources */,
+				17FD5CFF247D1ECD004BFE3F /* twoColorChange.swift in Sources */,
 				17FD5CEB247D1B22004BFE3F /* ViewController.swift in Sources */,
 				17FD5CE7247D1B22004BFE3F /* AppDelegate.swift in Sources */,
 				17FD5CE9247D1B22004BFE3F /* SceneDelegate.swift in Sources */,
+				17FD5D05247D1F75004BFE3F /* randomPhoto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
